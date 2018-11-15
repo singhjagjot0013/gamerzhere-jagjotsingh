@@ -1,0 +1,342 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<useCaseModelRoot xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" xmlns:dm10="http://schemas.microsoft.com/dsltools/SimpleShapesModel" dslVersion="1.0.0.0" Id="b7641eb9-439e-45e2-8d02-cbc2c08704db" name="UMLUseCaseDiagram1" linkedPackageId="c371745a-ff2d-42ba-8c69-be79ac4f1043" xmlns="http://schemas.microsoft.com/dsltools/UseCaseModel">
+  <profileInstances>
+    <packageHasProfileInstances Id="6c143c2c-8b55-4eba-8157-a0359694d2ff">
+      <profileInstance Id="5516a0ca-e331-4110-98ac-90ac5bbfce20" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="a57bde6d-9eee-4654-997b-530002211926">
+      <profileInstance Id="655a30fe-336d-4843-bdcb-5ac392ef76c2" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <useCaseModelRootHasTypes>
+      <actor Id="9ec6cdfc-c2fe-4ffd-8a78-e01f978a4e25" name="Customer" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="85a477a5-c159-4aa7-bd9c-88f5b1cf4e11" />
+        <targetEnds>
+          <association Id="1ce14654-2bb3-4f1f-8079-207f976a497a" isDerived="false" sourceEndRoleName="Customer" targetEndRoleName="Game bank" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="5777efce-5ca7-438e-ab01-fb0ce96ffc26" LastKnownName="Game bank" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="ca21b611-1c51-4892-9ed3-58cd8e307d56" name="Customer" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="7a6fb016-83e6-4abe-9530-f0060787f85b" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="7f25e18d-2fa7-4649-998f-7d16f9c98d93" name="Game bank" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="ac87e294-9489-49b9-9800-b67017ea2a96" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="8c1e898c-c98c-4ce7-b190-e90d5e29fec2" />
+          </association>
+          <association Id="248b1cd1-6d26-4e7b-ae9e-7a363b784c81" isDerived="false" sourceEndRoleName="Customer" targetEndRoleName="Skill Building Hub" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="b113ac46-1c83-4277-9ff2-02d72f7141ad" LastKnownName="Skill Building Hub" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="66c35eb6-8d86-42fd-8f27-961e2464d662" name="Customer" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="4b96b0dd-3026-4013-9036-a942646f0a53" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="cc1d7b72-6ae7-4605-91fc-9dfd95981162" name="Skill Building Hub" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="df03f3f0-b45b-4331-ad2f-094ab1b9f140" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="d9beaab5-6a4a-4364-82f6-abbc0530aa74" />
+          </association>
+          <association Id="7d29b31a-93f9-48f7-8b19-654d5ad353cf" isDerived="false" sourceEndRoleName="Customer" targetEndRoleName="Sign up/Log in" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="c063ac08-7552-431f-a767-e52e091a8cba" LastKnownName="Sign up/Log in" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="573582cb-d837-48d6-8f5e-85b67f66db6f" name="Customer" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="5c97e392-bbf1-41cd-9610-5d80e37cd5aa" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="059216b5-ad80-463d-8369-8c0ce4966ffd" name="Sign up/Log in" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="a4ca96e3-d21f-4f89-82ad-ad117cbedd71" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="5c84cf0f-b13f-4327-a7c0-7dcc77d24021" />
+          </association>
+          <association Id="c103c379-cb20-486e-8069-49d71095024c" isDerived="false" sourceEndRoleName="Customer" targetEndRoleName="Your feed" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="696d8068-d1fe-4950-ab10-06f1e7a3c50d" LastKnownName="Your feed" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="14686256-6f3a-4bd4-852a-487a3b496694" name="Customer" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="06ea1805-580e-45e1-b4a6-8e432597e99c" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="8ba80506-2fa4-43b6-8618-88b7e0d7d9fa" name="Your feed" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="25694fa5-9439-4272-b82c-394402e2ee77" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="9eb3b302-cfda-4739-8bd0-c03c82aa872f" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="5777efce-5ca7-438e-ab01-fb0ce96ffc26" name="Game bank" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="6663546d-12cb-4eb0-8afb-44c117633546" />
+        <additions>
+          <include Id="a2fb907e-117b-42d4-9fa9-92db6431a0fd">
+            <useCaseMoniker Id="1e3c0a17-c478-49ba-91ee-b1484c859355" LastKnownName="Purchase Game" />
+            <elementDefinition Id="e227c4cc-bc29-4f91-85a0-df25352ab37f" />
+          </include>
+          <include Id="236999dd-931b-4784-b41f-1583f51a97ca">
+            <useCaseMoniker Id="0b71d732-d053-4b50-8e33-0c42615b1f06" LastKnownName="Play Online" />
+            <elementDefinition Id="114cc991-6d84-413a-a3fd-e4c03fab4635" />
+          </include>
+        </additions>
+        <subjects>
+          <subsystemMoniker Id="1018d4c9-bfba-48ce-b3a9-dad740fbf34f" LastKnownName="Subsystem1" />
+        </subjects>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="b113ac46-1c83-4277-9ff2-02d72f7141ad" name="Skill Building Hub" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="35596ae9-0759-4ddc-bfc3-109a476934b8" />
+        <additions>
+          <include Id="92f8ef5f-ccda-4f54-a191-763a1ea3e7ae">
+            <useCaseMoniker Id="26c959e8-7902-4e77-a6c8-0d470ef72448" LastKnownName="Brain intergration" />
+            <elementDefinition Id="0e20042c-5c25-4059-a9a0-5f7c44c5f62d" />
+          </include>
+          <include Id="c8edb9c0-1e5f-4382-9c12-0911b1137313">
+            <useCaseMoniker Id="3f8c5357-dbbe-4ddc-8e42-0af045b8185e" LastKnownName="Practice Material" />
+            <elementDefinition Id="d90cc67f-af97-4c76-b73b-059635e37657" />
+          </include>
+          <include Id="678ba8eb-f131-42e2-81c1-a8e61f68c482">
+            <useCaseMoniker Id="1cd18a60-5ced-44f9-a0f8-7e533a744bda" LastKnownName="Coding videos" />
+            <elementDefinition Id="688831af-bda9-4d07-bb71-280e1f211613" />
+          </include>
+        </additions>
+        <subjects>
+          <subsystemMoniker Id="1018d4c9-bfba-48ce-b3a9-dad740fbf34f" LastKnownName="Subsystem1" />
+        </subjects>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="c063ac08-7552-431f-a767-e52e091a8cba" name="Sign up/Log in" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="3f6a713a-7451-4e3a-a5a6-ce9932173003" />
+        <subjects>
+          <subsystemMoniker Id="1018d4c9-bfba-48ce-b3a9-dad740fbf34f" LastKnownName="Subsystem1" />
+        </subjects>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="696d8068-d1fe-4950-ab10-06f1e7a3c50d" name="Your feed" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="66276bc1-059a-4773-89ee-1111a71fb748" />
+        <subjects>
+          <subsystemMoniker Id="1018d4c9-bfba-48ce-b3a9-dad740fbf34f" LastKnownName="Subsystem1" />
+        </subjects>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="0b71d732-d053-4b50-8e33-0c42615b1f06" name="Play Online" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="48c747c4-a466-4318-b9d4-917b805f95df" />
+        <subjects>
+          <subsystemMoniker Id="1018d4c9-bfba-48ce-b3a9-dad740fbf34f" LastKnownName="Subsystem1" />
+        </subjects>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="6e69e52d-ba16-43e1-8c47-86f0d80c25ae" name="Add to cart" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="3ffb914f-8e48-40e7-a848-8313ce124b07" />
+        <extendedCases>
+          <extend Id="7a2d7f44-df7d-42e6-ad88-23ac2915188d">
+            <useCaseMoniker Id="1e3c0a17-c478-49ba-91ee-b1484c859355" LastKnownName="Purchase Game" />
+            <elementDefinition Id="10bca6f6-f32e-49db-98f1-90db38552e7e" />
+          </extend>
+          <extend Id="5164663f-d3b0-4fb0-a7d2-2e9785489924">
+            <useCaseMoniker Id="0b71d732-d053-4b50-8e33-0c42615b1f06" LastKnownName="Play Online" />
+            <elementDefinition Id="dbdc3ffe-6365-4695-9b67-060f76340bb5" />
+          </extend>
+        </extendedCases>
+        <subjects>
+          <subsystemMoniker Id="1018d4c9-bfba-48ce-b3a9-dad740fbf34f" LastKnownName="Subsystem1" />
+        </subjects>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="1e3c0a17-c478-49ba-91ee-b1484c859355" name="Purchase Game" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="8a44cdb6-7fe4-4ca2-9026-703c3b919bdb" />
+        <subjects>
+          <subsystemMoniker Id="1018d4c9-bfba-48ce-b3a9-dad740fbf34f" LastKnownName="Subsystem1" />
+        </subjects>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="1392af41-1063-42e4-aa0e-84b2c296d2d4" name="Transcation" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="096351b5-d72c-4cbe-9e4e-90e8d71354a0" />
+        <extendedCases>
+          <extend Id="246801df-44e0-43c7-806e-f75ebb9d8846">
+            <useCaseMoniker Id="6e69e52d-ba16-43e1-8c47-86f0d80c25ae" LastKnownName="Add to cart" />
+            <elementDefinition Id="d13dedff-83d9-411d-8320-da8571cbcf80" />
+          </extend>
+        </extendedCases>
+        <subjects>
+          <subsystemMoniker Id="1018d4c9-bfba-48ce-b3a9-dad740fbf34f" LastKnownName="Subsystem1" />
+        </subjects>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="26c959e8-7902-4e77-a6c8-0d470ef72448" name="Brain intergration" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="d5b09ee0-1a00-4ac9-8f32-c5c3ad380dad" />
+        <targetEnds>
+          <association Id="25851038-deb5-4fdd-9929-98c30a93ff13" isDerived="false" sourceEndRoleName="Brain intergration" targetEndRoleName="Site manager" isLeaf="false" isAbstract="false">
+            <actorMoniker Id="a20b2945-1bd8-4eae-ae9a-a35a36d1fb0f" LastKnownName="Site manager" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="05e769c2-9ae6-4b0c-a205-4f420f17b2a0" name="Brain intergration" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="d8219da7-d22d-4ca3-a63d-3d81829e7115" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="6e73c3ac-3fa3-40b6-a79e-d274a2cd375d" name="Site manager" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="ec5af21b-210a-4e5a-aa2b-76915d22da4c" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="6ec6826e-74ca-4bb5-962a-c752afa118ea" />
+          </association>
+        </targetEnds>
+        <subjects>
+          <subsystemMoniker Id="1018d4c9-bfba-48ce-b3a9-dad740fbf34f" LastKnownName="Subsystem1" />
+        </subjects>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="1cd18a60-5ced-44f9-a0f8-7e533a744bda" name="Coding videos" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="e9e4bf44-15dd-4559-bfae-865a806588c2" />
+        <targetEnds>
+          <association Id="e460be9c-314e-4ab7-81b9-7462a5490420" isDerived="false" sourceEndRoleName="Coding videos" targetEndRoleName="Site manager" isLeaf="false" isAbstract="false">
+            <actorMoniker Id="a20b2945-1bd8-4eae-ae9a-a35a36d1fb0f" LastKnownName="Site manager" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="9bc6fabc-84de-449d-aafc-b3f930cabcce" name="Coding videos" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="ddb4e4ae-de95-4ed9-8bd3-b262491448bb" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="e2c61512-3263-4fa5-a21f-3b58b16f6115" name="Site manager" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="3f0071bd-0b93-4e9b-8a21-fa3a80c8a448" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="82bac95f-c8e1-4fe8-8b1e-b8e66a2b312b" />
+          </association>
+        </targetEnds>
+        <subjects>
+          <subsystemMoniker Id="1018d4c9-bfba-48ce-b3a9-dad740fbf34f" LastKnownName="Subsystem1" />
+        </subjects>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="3f8c5357-dbbe-4ddc-8e42-0af045b8185e" name="Practice Material" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="d54ac61d-d5e2-49ee-8dc4-bfdf10ced403" />
+        <targetEnds>
+          <association Id="fcba0056-f9be-4040-a647-1cc4d0abe238" isDerived="false" sourceEndRoleName="Practice Material" targetEndRoleName="Site manager" isLeaf="false" isAbstract="false">
+            <actorMoniker Id="a20b2945-1bd8-4eae-ae9a-a35a36d1fb0f" LastKnownName="Site manager" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="c633b993-5019-40b4-b979-ef66e191788b" name="Practice Material" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="e453abba-6f16-4669-aab4-6e643c9129fc" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="22563d64-4b34-4896-8aee-c03158391fa4" name="Site manager" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="6ecf7787-0f39-4b8a-93b3-75a306615970" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="1b8da97f-8f60-48b3-b0fa-22414b1e188c" />
+          </association>
+        </targetEnds>
+        <subjects>
+          <subsystemMoniker Id="1018d4c9-bfba-48ce-b3a9-dad740fbf34f" LastKnownName="Subsystem1" />
+        </subjects>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <actor Id="a20b2945-1bd8-4eae-ae9a-a35a36d1fb0f" name="Site manager" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="c520e806-358d-4a0f-b365-ec7b4492a960" />
+        <targetEnds>
+          <association Id="cefa3758-0de1-4eda-8fba-1c1e367b8d9e" isDerived="false" sourceEndRoleName="Site manager" targetEndRoleName="Your feed" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="696d8068-d1fe-4950-ab10-06f1e7a3c50d" LastKnownName="Your feed" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="6ac86a90-187f-4a4f-8a9d-ae645ce30a18" name="Site manager" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="44450102-1e9e-434b-ab16-bb1b44a8b922" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="5f326420-a49f-4070-a1ee-a731d4550fd2" name="Your feed" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="bd878494-293d-402f-8bee-a48505365336" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="5b12cdf1-5607-4b17-b81d-2018be275eb6" />
+          </association>
+          <association Id="193908bc-e990-4814-80f9-073f4a4f1cff" isDerived="false" sourceEndRoleName="Site manager" targetEndRoleName="Game bank" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="5777efce-5ca7-438e-ab01-fb0ce96ffc26" LastKnownName="Game bank" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="e6b30be4-4f2d-4e8e-9f89-84ab8dd58680" name="Site manager" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="dcc4f537-4cf8-4381-89ab-f6a3e41644e5" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="91bf0036-bd6c-4dec-adf2-1ebee8fa607e" name="Game bank" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="b70195ec-1524-4433-b3a3-6e6c1757b96c" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="f5abc982-fce4-4eb6-9157-2f54fb32827c" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <actor Id="1de68349-dbd9-4b9d-bcd1-8a8508e977f1" name="Bank" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="048fa8cc-1b3d-4420-a17a-7bcd24d5dbf3" />
+        <targetEnds>
+          <association Id="56c59eaa-5355-4184-8e52-07077a8e7691" isDerived="false" sourceEndRoleName="Bank" targetEndRoleName="Transcation" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="1392af41-1063-42e4-aa0e-84b2c296d2d4" LastKnownName="Transcation" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="23f556dd-4429-4b7e-97e6-a3a5d217f12f" name="Bank" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="f30863c9-a658-4537-ac9a-8d2eaedc307c" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="f6ee8ff6-7e2d-4503-b1f0-3bb105f7a987" name="Transcation" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="c006d50a-5693-4d8a-86ec-8e4cf7ef6fb7" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="40d27011-e43a-43dc-aafa-125a8e6aa808" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <subsystem Id="1018d4c9-bfba-48ce-b3a9-dad740fbf34f" name="Subsystem1" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="755a5f55-d89b-41c4-b1f3-722a2dcf6460" />
+      </subsystem>
+    </useCaseModelRootHasTypes>
+  </packagedElements>
+  <package Id="c371745a-ff2d-42ba-8c69-be79ac4f1043" name="ModelingProject1">
+    <elementDefinition Id="0869afd4-d80c-440a-bbb5-fc1c434af706" />
+  </package>
+</useCaseModelRoot>
